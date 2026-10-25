@@ -113,7 +113,11 @@ if (!$rowPeriode) {
     $totalPinjamanAktif= 0;
     $angsuranBulanIni  = 0;
     $statusPengajuan   = 'Tidak ada';
-    $rewardBenefit     = "Periode belum ditentukan";
+
+    $shuInfo            = 'Periode belum ditentukan';
+    $rewardBenefit      = '';
+    $shuTabunganAnggota = 0;
+
 } else {
     $periodeAwal  = $rowPeriode['awal'];
     $periodeAkhir = $rowPeriode['akhir'];
