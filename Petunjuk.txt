@@ -1,0 +1,14 @@
+Petunjuk :
+Letakkan di Server pada folder SIMRS Khanza berada (posisi sejajar dengan webapps dll)
+
+1. edit conf.php, isi yang sesuai dengan pengaturan conf.php yang ada di server masing-masing
+
+2. edit conf_koperasi.php, dan sesuaikan db name dan password yang sesuai dengan pengaturannya
+
+3. pada conf_koperasi.php, ubah atau atur $base_url = "/manajemen_koperasi/";
+   jika letak folder manajemen_koperasi ada di dalam sub folder maka tambahkan sebelum /manajemen_koperasi nama foldernya, misal /rs_x/manajemen_koperasi/
+
+4. sebelum masuk ke menu-menu, maka administrator harus mengatur dulu nama-nama pegawai yang ditugaskan sebagai ketua, sekretaris, bendahara (letaknya di menu Keanggotaan - Daftar Anggota)
+
+5. Semoga berhasil dan aman tanpa terkendala
+
