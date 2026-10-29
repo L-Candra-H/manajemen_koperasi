@@ -10,5 +10,7 @@ Letakkan di Server pada folder SIMRS Khanza berada (posisi sejajar dengan webapp
 
 4. sebelum masuk ke menu-menu, maka administrator harus mengatur dulu nama-nama pegawai yang ditugaskan sebagai ketua, sekretaris, bendahara (letaknya di menu Keanggotaan - Daftar Anggota)
 
-5. Semoga berhasil dan aman tanpa terkendala
+5. Cek pada DB induk pada tabel keanggotaan apakah pada kolom koperasi statusnya berupa "Y" dan "T", jika belum ubah dulu menjadi "Y" atau "T"
+
+6. Semoga berhasil dan aman tanpa terkendala
 
